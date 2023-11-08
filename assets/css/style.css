@@ -148,6 +148,18 @@ h1, h2, h3, h4, h5, ul, li, p {
   padding-bottom: 30px;
 }
 
+/* line 1, ../sass/components/_four-buttons.scss */
+.eco-galaxy,
+.cadeado-galaxy {
+  margin-bottom: 8px;
+}
+
+/* line 6, ../sass/components/_four-buttons.scss */
+.grav-dados,
+.try-galaxy {
+  margin-top: 8px;
+}
+
 /* line 5, ../sass/components/_box.scss */
 .box-item {
   margin-bottom: 20px;
