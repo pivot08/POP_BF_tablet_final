@@ -1,0 +1,57 @@
+@mixin box-sizing($val) {
+   -webkit-box-sizing: $val;
+      -moz-box-sizing: $val;
+           box-sizing: $val;
+}
+
+@mixin border-radius($radius) {
+   -webkit-border-radius: $radius;
+      -moz-border-radius: $radius;
+       -ms-border-radius: $radius;
+           border-radius: $radius;
+}
+
+@mixin transition($value1, $value2) {
+   -webkit-transition: $value1 $value2;
+      -moz-transition: $value1 $value2;
+        -o-transition: $value1 $value2;
+           transition: $value1 $value2;
+}
+
+@mixin scale($val) {
+  -webkit-transform: scale($val);
+     -moz-transform: scale($val);
+       -o-transform: scale($val);
+          transform: scale($val);
+}
+
+@mixin rotate($val) {
+   -webkit-transform: rotate($val);
+      -moz-transform: rotate($val);
+       -ms-transform: rotate($val);
+        -o-transform: rotate($val);
+           transform: rotate($val);
+}
+
+@mixin opacity($opacity) {
+  -webkit-opacity: $opacity;
+     -moz-opacity: $opacity;      
+          opacity: $opacity;
+}
+
+@mixin animation($val1, $val2, $val3) {
+   -webkit-animation: $val1 $val2 $val3; 
+      -moz-animation: $val1 $val2 $val3; 
+        -o-animation: $val1 $val2 $val3; 
+           animation: $val1 $val2 $val3;         
+}
+
+@function calculateRem($size) {
+   $remSize: $size / 16px;
+   @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+   font-size: $size;
+   font-size: calculateRem($size);
+}

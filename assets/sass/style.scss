@@ -1,0 +1,20 @@
+// generic
+@import "generic/reset";
+@import "generic/fonts";
+
+
+// Settings
+@import "settings/variables";
+@import "settings/mixins";
+
+// Base
+@import "base/default";
+
+// Components
+@import "components/header";
+@import "components/wrap";
+@import "components/box";
+@import "components/footer";
+
+// trumps
+@import "trumps/helpers";
