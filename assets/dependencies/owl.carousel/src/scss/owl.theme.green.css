@@ -1,0 +1,57 @@
+/*
+ * 	Green theme - Owl Carousel CSS File
+ */
+/* line 4, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  /* line 9, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    /* line 19, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      background: #4DC7A0;
+      color: #FFF;
+      text-decoration: none; }
+  /* line 25, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+  .owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+/* line 32, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+/* line 36, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  /* line 40, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; }
+    /* line 45, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+    .owl-theme .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background: #D6D6D6;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+    /* line 58, C:/wamp64/www/marcushausser/wp-content/themes/marcushausser/assets/dependencies/owl.carousel/src/scss/_theme.scss */
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+      background: #4DC7A0; }
+
+/*# sourceMappingURL=owl.theme.green.css.map */

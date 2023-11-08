@@ -185,17 +185,25 @@ h1, h2, h3, h4, h5, ul, li, p {
 /* line 21, ../sass/components/_box.scss */
 .box-item-bordered-title {
   font-size: 38px;
+  margin-bottom: 50px;
 }
 
-/* line 25, ../sass/components/_box.scss */
+/* line 26, ../sass/components/_box.scss */
 .box-link {
   display: block;
 }
 
-/* line 29, ../sass/components/_box.scss */
+/* line 30, ../sass/components/_box.scss */
 .box-img {
   display: block;
   margin: 0 auto;
+}
+
+/* line 1, ../sass/components/_video.scss */
+.videos {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
 }
 
 /* line 1, ../sass/trumps/_helpers.scss */
