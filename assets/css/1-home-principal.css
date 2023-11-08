@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'SamsungSharpSans';
+  src: url('./SamsungSharpSans-Bold.woff');
+}
+
+h2 {
+  font-family: 'SamsungSharpSans';
+  font-size: 90px;
+}
+
+.section01_home_principal {
+  width: 1200px;
+  height: 2000px;
+}
+
+
+.section01_home_principal .div_button {
+  margin: 0 auto;
+  width: 1080px;
+  height: 460px;
+  z-index: 999;
+  border-radius: 30px;
+  position: relative;
+  bottom: 535px;
+
+}
+
+.section01_home_principal .div_button a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.section01_home_principal .button {
+  margin: 0 auto;
+  width: 1042px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  box-shadow: 30px 30px #b5cdc6;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0 110px;
+}
+
+.section01_home_principal .button_icon {
+  width: 150px;
+  height: 250px;
+}
