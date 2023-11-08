@@ -151,13 +151,13 @@ h1, h2, h3, h4, h5, ul, li, p {
 /* line 1, ../sass/components/_four-buttons.scss */
 .eco-galaxy,
 .cadeado-galaxy {
-  margin-bottom: 8px;
+  margin-bottom: 14px;
 }
 
 /* line 6, ../sass/components/_four-buttons.scss */
 .grav-dados,
 .try-galaxy {
-  margin-top: 8px;
+  margin-top: 14px;
 }
 
 /* line 5, ../sass/components/_box.scss */
