@@ -22,13 +22,18 @@
 .feature-zfold-black,
 .feature-a54-black,
 .feature-a14-black,
-.feature-s9-black{
+.feature-s9-black,
+.feature-bookultra-black,
+.feature-watch6-black{
     background-color: #000000;
 }
 
 .feature-zfold-white,
 .feature-zflip-white,
-.feature-a54-white{
+.feature-a54-white,
+.feature-book-white,
+.feature-book360-white,
+.feature-bookultra-white{
     background-color: #ffffff;
 }
 
@@ -42,6 +47,15 @@
 .feature-a14-ebf2e0{
     background-color: #ebf2e0;
 }
+.feature-s9FE-eaf5f1,
+.feature-s9FE-eaf5f1{
+    background-color: #eaf5f1;
+}
+
+.feature-book-f8f8f8,
+.feature-book36-f8f8f8{
+    background-color: #f8f8f8;
+}
 
 .tit-snapdragon{color: #fd5051;}
 .tit-nightography{color: #c03a36;}
@@ -49,7 +63,10 @@
 .txt-white{color: #ffffff;}
 .txt-black{color: #000000;}
 .txt-green{color: #79af68;}
+.txt-green2{color:#80c606;}
 .txt-pink{color:#ff004e;}
+.txt-grey{color: #646464;}
+.txt-blue{color: #47a8cd;}
 
 strong{
     font-weight: bolder;
@@ -95,4 +112,14 @@ h3{
 video{
     max-width: 100%;
     margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mt{
+    position: absolute;
+
+    margin-top: -400px;
 }
