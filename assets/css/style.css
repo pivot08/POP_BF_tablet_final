@@ -71,6 +71,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Samsung InterFace';
+  src: url("SamsungIF_Rg.ttf") format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Samsung InterFace Bold';
+  src: url("SamsungIF_Rg.ttf") format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SamsungOne';
+  src: url("SamsungOne-400.ttf") format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   background-color: #fff;
   font-family: 'Samsung Sharp Sans';

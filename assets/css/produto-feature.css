@@ -77,6 +77,15 @@ h3{
     font-family: 'Samsung InterFace';
 }
 
+.box-paragraph strong{
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+    font-size: 40px;
+    font-weight: 15pt;
+    font-family: 'Samsung InterFace Bold';
+}
+
 .box-tj{
     font-family: 'SamsungOne';
     font-size: 16px;
@@ -84,6 +93,6 @@ h3{
 }
 
 video{
-    max-width: 1100px;
+    max-width: 100%;
     margin: 0 auto;
 }
