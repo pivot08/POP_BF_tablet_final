@@ -21,6 +21,12 @@ time, mark, audio, video {
 }
 
 
+body {
+  scale: 0.89;
+  top: 0;
+  margin-top: -84px;
+}
+
 html {
   line-height: 1;
 }
@@ -80,7 +86,7 @@ h1, h2, h3, h4, h5, ul, li, p {
 }
 
 .header {
-  margin-bottom: 30px;
+  margin-bottom: 9px;
 }
 
 .header-left,
@@ -142,28 +148,39 @@ h1, h2, h3, h4, h5, ul, li, p {
 }
 
 .box-item {
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 11px;
+  margin-top: 11px;
 }
 
 .box-item-bordered-in {
-  padding-left: 30px;
+  padding-left: 12px;
 }
 
 .box-item-bordered {
-  border: 3px solid #000;
+  border: 2px solid #000;
   height: 100%;
-  padding: 35px;
+  padding: 0px;
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
   border-radius: 35px;
+  max-width: 500px;
 }
 
 .box-item-bordered-title {
-  font-size: 38px;
-  margin-bottom: 50px;
+  font-size: 28px;
+  margin-bottom: 4px;
+  padding-left: 30px;
+  padding-top: 30px;
+  /* text-align: center; */
 }
+
+.col-md-6.box-item .row {
+  max-width: 520px;
+  right: 0;
+}
+
+
 
 .box-link {
   display: block;
