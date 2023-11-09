@@ -26,15 +26,23 @@ h3{
     margin: 0 auto;
     margin-bottom: 35px;
 
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 15pt;
-    font-family: 'SamsungInterFace';
+    font-family: 'Samsung InterFace';
 }
 
 .box-tj{
     font-family: 'SamsungOne';
     font-size: 16px;
     margin: 30px 80px;
+}
+
+.tit-snapdragon{
+    color: #fd5051;
+}
+
+.tit-nightography{
+    color: #c03a36;
 }
 
 video{
