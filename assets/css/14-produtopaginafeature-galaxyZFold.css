@@ -1,0 +1,23 @@
+.background-gray { 
+  width: 1200px;
+  height: 2000px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  color: #000000;
+}
+
+.header-center {
+  background-color: #000000;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #ffffff;
+  height: 70px;
+  font-size: 26px;
+  position: relative;
+}
+
+.header-center:after {
+  border-top-color: #000000;
+}
+
+.image-zoom {margin-top: -110px;}
