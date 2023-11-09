@@ -31,7 +31,8 @@
 .feature-zflip-white,
 .feature-a54-white,
 .feature-book-white,
-.feature-book360-white{
+.feature-book360-white,
+.feature-bookultra-white{
     background-color: #ffffff;
 }
 
@@ -61,6 +62,7 @@
 .txt-white{color: #ffffff;}
 .txt-black{color: #000000;}
 .txt-green{color: #79af68;}
+.txt-green2{color:#80c606;}
 .txt-pink{color:#ff004e;}
 .txt-grey{color: #646464;}
 .txt-blue{color: #47a8cd;}
