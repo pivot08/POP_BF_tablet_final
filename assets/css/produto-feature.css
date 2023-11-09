@@ -48,7 +48,8 @@
     background-color: #eaf5f1;
 }
 
-.feature-book-f8f8f8{
+.feature-book-f8f8f8,
+.feature-book36-f8f8f8{
     background-color: #f8f8f8;
 }
 
@@ -104,4 +105,14 @@ h3{
 video{
     max-width: 100%;
     margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mt{
+    position: absolute;
+
+    margin-top: -400px;
 }
