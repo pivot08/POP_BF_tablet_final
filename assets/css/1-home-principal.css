@@ -63,3 +63,8 @@ h2 {
   width: 150px;
   height: 250px;
 }
+
+
+video {width: 100%;}
+body {scale:1.0;}
+.container {width: 100%;max-width: 100%;padding:0px;}
