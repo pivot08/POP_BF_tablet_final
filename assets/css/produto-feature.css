@@ -29,7 +29,8 @@
 .feature-zfold-white,
 .feature-zflip-white,
 .feature-a54-white,
-.feature-book-white{
+.feature-book-white,
+.feature-book360-white{
     background-color: #ffffff;
 }
 
@@ -60,6 +61,7 @@
 .txt-black{color: #000000;}
 .txt-green{color: #79af68;}
 .txt-pink{color:#ff004e;}
+.txt-grey{color: #646464;}
 
 strong{
     font-weight: bolder;
