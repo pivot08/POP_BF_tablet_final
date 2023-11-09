@@ -18,6 +18,14 @@
     background-color: #d5e5e1;
 }
 
+.feature-zfold-black{
+    background-color: #000000;
+}
+
+.feature-zfold-white{
+    background-color: #ffffff;
+}
+
 .tit-snapdragon{
     color: #fd5051;
 }
@@ -53,7 +61,6 @@ h3{
 }
 
 .box-paragraph{
-    width: 870px;
     margin: 0 auto;
     margin-bottom: 35px;
 
