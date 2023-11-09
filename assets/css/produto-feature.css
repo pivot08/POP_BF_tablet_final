@@ -20,7 +20,8 @@
 
 .feature-zfold-black,
 .feature-a54-black,
-.feature-a14-black{
+.feature-a14-black,
+.feature-s9-black{
     background-color: #000000;
 }
 
@@ -60,7 +61,7 @@ h3, p{
 }
 
 h3{
-    max-width: 20ch;
+    max-width: 24ch;
     margin-bottom: 25px;
 
     font-size: 60px;
