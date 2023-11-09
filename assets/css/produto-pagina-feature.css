@@ -1,0 +1,40 @@
+.background-s23 { 
+  width: 1200px;
+  height: 2000px;
+  background-color: #5d4656;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.background-s23fe { 
+  width: 1200px;
+  height: 2000px;
+  background-image: url('../imgs/galaxy-s23fe_bg.png');
+  margin: 0 auto;
+  color: #000000;
+}
+
+.background-gray-zfold { 
+  width: 1200px;
+  height: 2000px;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+  color: #000000;
+}
+
+
+.header-center.s23 {
+  background-color: #ffffff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  color: #5d4656;
+  height: 70px;
+  font-size: 26px;
+  position: relative;
+}
+
+.header-center.black:after {
+  border-top-color: #ffffff;
+}
+
+.image-design {margin-top: -110px;}
