@@ -18,11 +18,14 @@
     background-color: #d5e5e1;
 }
 
-.feature-zfold-black{
+.feature-zfold-black,
+.feature-a54-black{
     background-color: #000000;
 }
 
-.feature-zfold-white, .feature-zflip-white{
+.feature-zfold-white,
+.feature-zflip-white,
+.feature-a54-white{
     background-color: #ffffff;
 }
 
@@ -30,21 +33,12 @@
     background-color: #f1ebe1;
 }
 
-.tit-snapdragon{
-    color: #fd5051;
-}
-
-.tit-nightography{
-    color: #c03a36;
-}
-
-.tit-nightography-s23fe{
-    color: #c2d5ca;
-}
-
-.txt-black{
-    color: #000000;
-}
+.tit-snapdragon{color: #fd5051;}
+.tit-nightography{color: #c03a36;}
+.tit-nightography-s23fe{color: #c2d5ca;}
+.txt-white{color: #ffffff;}
+.txt-black{color: #000000;}
+.txt-green{color: #79af68}
 
 strong{
     font-weight: bolder;
