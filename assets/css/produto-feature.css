@@ -61,19 +61,18 @@ h3, p{
 }
 
 h3{
-    max-width: 24ch;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 
-    font-size: 60px;
-    font-weight: 45px;
+    font-size: 45px;
+    line-height: 55px;
 }
 
 .box-paragraph{
-    margin: 0 auto;
-    margin-bottom: 35px;
+    margin: 0 120px;
+    padding-bottom: 20px;
 
-    font-size: 40px;
-    font-weight: 15pt;
+    font-size: 28px;
+    line-height: 38px;
     font-family: 'Samsung InterFace';
 }
 
