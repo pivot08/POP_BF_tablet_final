@@ -18,7 +18,7 @@
                 </video>
             </div>
             <div class="div_button">
-                <a href="#" class="btn_start">
+                <a href="./2-categoria.html" class="btn_start">
                     <div class="button">
                         <img src="assets/imgs/1_home-principal_hand.png" class="button_icon">
                         <h2 class="button_text">Aperte aqui<br/> para iniciar</h2>
@@ -27,6 +27,15 @@
             </div>
         </div>
     </section>
+    <script>
+        const button = document.querySelector(".btn_start");
+        const box = document.querySelector(".button");
+
+        button.addEventListener("click", ()=> {
+            box.style.animation = "";
+            setTimeout(() => box.style.animation = "on_click", 5);
+        });
+    </script>
 </body>
 </html>
                           
