@@ -1,4 +1,4 @@
-
+img {max-width: 100%;}
 
 a,video,.btn_start,.div_button {
   transition: transform 0.3s; /* Defina a duração desejada (por exemplo, 0.3 segundos) */
@@ -14,4 +14,3 @@ a:active,video:active,.btn_start:active {
   
 }
 
-#container {max-width: 1980px;}
