@@ -1,4 +1,5 @@
 
+
 a,video {
   transition: transform 0.3s; /* Defina a duração desejada (por exemplo, 0.3 segundos) */
 }
@@ -7,3 +8,4 @@ a:active,video:active {
   transform: scale(0.8); /* Use 'scale' para suavizar a transição de zoom */
 }
 
+#container {max-width: 1980px;}
