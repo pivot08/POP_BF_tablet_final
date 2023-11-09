@@ -22,7 +22,8 @@
 .feature-zfold-black,
 .feature-a54-black,
 .feature-a14-black,
-.feature-s9-black{
+.feature-s9-black,
+.feature-bookultra-black{
     background-color: #000000;
 }
 
@@ -62,6 +63,7 @@
 .txt-green{color: #79af68;}
 .txt-pink{color:#ff004e;}
 .txt-grey{color: #646464;}
+.txt-blue{color: #47a8cd;}
 
 strong{
     font-weight: bolder;
