@@ -1,11 +1,17 @@
 
 
-a,video {
+a,video,.btn_start,.div_button {
   transition: transform 0.3s; /* Defina a duração desejada (por exemplo, 0.3 segundos) */
+  box-shadow: 0px 0px !important;
 }
 
-a:active,video:active {
+a:active,video:active,.btn_start:active {
   transform: scale(0.8); /* Use 'scale' para suavizar a transição de zoom */
+}
+
+.div_button:active {
+  transform: scale(0.8); /* Use 'scale' para suavizar a transição de zoom */
+  
 }
 
 #container {max-width: 1980px;}

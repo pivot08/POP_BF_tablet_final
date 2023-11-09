@@ -2,10 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, user-scalable=no">
+
     <!-- CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/dependencies/owl.carousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/dependencies/owl.carousel/dist/assets/owl.theme.default.min.css">	
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/1-home-principal.css">
+    <link rel="stylesheet" href="assets/css/animacoes.css">
+
+
     <title>Samsung</title>
 </head>
 <body>
@@ -14,11 +21,10 @@
             <div class="div_video">
                 <video autoplay loop muted>
                     <source src="assets/videos/_intro/Intro.mp4" type="video/mp4">
-                        Seu navegador não suporta vídeo HTML5.
                 </video>
             </div>
             <div class="div_button">
-                <a href="#" class="btn_start">
+                <a href="./2-categoria.html" class="btn_start">
                     <div class="button">
                         <img src="assets/imgs/1_home-principal_hand.png" class="button_icon">
                         <h2 class="button_text">Aperte aqui<br/> para iniciar</h2>
@@ -27,6 +33,15 @@
             </div>
         </div>
     </section>
+    <script>
+        const button = document.querySelector(".btn_start");
+        const box = document.querySelector(".button");
+
+        button.addEventListener("click", ()=> {
+            box.style.animation = "";
+            setTimeout(() => box.style.animation = "on_click", 5);
+        });
+    </script>
 </body>
 </html>
                           
