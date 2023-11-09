@@ -28,7 +28,8 @@
 
 .feature-zfold-white,
 .feature-zflip-white,
-.feature-a54-white{
+.feature-a54-white,
+.feature-book-white{
     background-color: #ffffff;
 }
 
@@ -45,6 +46,10 @@
 .feature-s9FE-eaf5f1,
 .feature-s9FE-eaf5f1{
     background-color: #eaf5f1;
+}
+
+.feature-book-f8f8f8{
+    background-color: #f8f8f8;
 }
 
 .tit-snapdragon{color: #fd5051;}
