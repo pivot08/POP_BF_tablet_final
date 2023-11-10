@@ -113,9 +113,7 @@ h4{
 .box-paragraph strong{
     margin: 0 auto;
     margin-bottom: 35px;
-
-    font-size: 40px;
-    font-weight: 15pt;
+    font-weight: 800;
     font-family: 'Samsung InterFace Bold';
 }
 
@@ -436,4 +434,9 @@ img{
 .video-fe{
     position: absolute;
     top: 100%;
+}
+
+
+.respiro-46 {
+    padding-top: 110px;
 }
