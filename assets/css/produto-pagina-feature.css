@@ -34,10 +34,12 @@
 }
 
 .background-a54 { 
+
   width: 100%;
   height: auto;
   background-image: url('../imgs/galaxy-a54_bg.png');
   background-size: cover;
+
   color: #000000;
 }
 
@@ -160,3 +162,7 @@
 }
 
 .image-02-tabs6 {margin-top:-55px;}
+
+.image-02-a54, .image-02-a34, .image-02-a14 {
+    margin-top: -25px;
+}
