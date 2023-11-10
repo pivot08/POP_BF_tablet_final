@@ -68,6 +68,7 @@
 .txt-grey{color: #646464;}
 .txt-blue{color: #47a8cd;}
 .tit-orange{color:#ff7f0c;}
+.txt-d5cae5{color:#d5cae5;}
 
 strong{
     font-weight: bolder;
@@ -201,6 +202,15 @@ img{
     max-width: 25ch;;
 }
 
+.box-paragraph2-buds{
+    position: absolute;
+    top: 43%;
+    left: -10%;
+
+    text-align: left;
+    max-width: 25ch;;
+}
+
 .box-tj-w6{
     position: absolute;
     top: 87%;
@@ -228,4 +238,13 @@ img{
 .box-tj2-buds{
     position: absolute;
     top: 90%;
+}
+
+.txt-tj3-buds{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+
+    text-align: left;
+    max-width: 40ch;
 }
