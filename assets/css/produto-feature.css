@@ -141,8 +141,30 @@ img{
 }
 
 .box-item-w6,
-.box-item-buds{
+.box-item-buds,
+.box-item-book3,
+.box-item-watch6{
     position: relative;
+}
+
+.tit-watch6{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-book3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.tit2-book3{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .tit-w6-sono{
@@ -233,6 +255,22 @@ img{
     transform: translate(-50%, -50%);
 
     text-align: center;
+}
+
+.txt-book3{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    margin: 0 auto;
+    max-width: 40ch;
+}
+
+.txt2-book3{
+    position: absolute;
+    top: 23%;
+    left: 14%;
+    margin: 0 auto;
+    max-width: 40ch;
 }
 
 .box-paragraph-w6{
@@ -360,6 +398,11 @@ img{
     line-height: 31px;
 
     text-align: left;
+}
+
+.txt-watch6{
+    position: absolute;
+    top: 70%;
 }
 
 .txt-tj3-buds{
