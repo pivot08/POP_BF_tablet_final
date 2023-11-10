@@ -226,6 +226,15 @@ img{
     text-align: right;
 }
 
+.tit3-smarttag{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -342,6 +351,17 @@ img{
     text-align: right;
 }
 
+.box-paragraph3-smarttag{
+    position: absolute;
+    top: 43%;
+    left: 38%;
+
+    font-size: 26px;
+    line-height: 31px;
+
+    text-align: left;
+}
+
 .txt-tj3-buds{
     position: absolute;
     top: 90%;
@@ -364,6 +384,10 @@ img{
 .box-tj2-smarttag{
     position: absolute;
     top: 90%;
+}
+.box-tj3-smarttag{
+    position: absolute;
+    top: 70%;
 }
 
 .video-fe{
