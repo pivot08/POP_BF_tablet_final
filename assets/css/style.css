@@ -192,19 +192,23 @@ h1, h2, h3, h4, h5, ul, li, p {
 }
 
 .box-item-bordered-title {
-  font-size: 28px;
+  font-size: 36px;
   margin-bottom: 4px;
   padding-left: 30px;
   padding-top: 30px;
   /* text-align: center; */
 }
 
+.smartTag {
+  display: block;
+  width: 350px;
+  margin: 40px auto 0 auto;
+}
+
 .col-md-6.box-item .row {
   max-width: 520px;
   right: 0;
 }
-
-
 
 .box-link {
   display: block;
@@ -219,5 +223,10 @@ h1, h2, h3, h4, h5, ul, li, p {
   display: block;
   margin: 0 auto;
   width: 300px;
+}
+
+.videos-2 {
+  display: block;
+  margin: 0 auto;
 }
 

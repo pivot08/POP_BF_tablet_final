@@ -1,145 +1,149 @@
 .background-s23 { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-image: url('../imgs/galaxy-s23_bg.png');
-  margin: 0 auto;
+  background-size: cover;
   color: #ffffff;
 }
 
 .background-s23fe { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
+  background-size: cover;
   background-image: url('../imgs/galaxy-s23fe_bg.png');
-  margin: 0 auto;
+  
   color: #000000;
 }
 
 .background-zfold { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
+  background-size: cover;
   background-color: #f4f4f4;
-  margin: 0 auto;
+  
   color: #000000;
 
 }
 
 .background-zflip { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #fefefe;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-a54 { 
-  width: 1200px;
-  height: 2000px;
-  background-color: #f4f4f4;
-  margin: 0 auto;
+
+  width: 100%;
+  height: auto;
+  background-image: url('../imgs/galaxy-a54_bg.png');
+  background-size: cover;
+
   color: #000000;
 }
 
 .background-a34 { 
-  width: 1200px;
-  height: 2000px;
-  background-color: #f4f4f4;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background-image: url('../imgs/galaxy-a34_bg.png');
+  background-size: cover;
   color: #000000;
 }
 
 .background-a14 { 
-  width: 1200px;
-  height: 2000px;
-  background-color: #f4f4f4;
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  background-image: url('../imgs/galaxy-a14_bg.png');
+  background-size: cover;
   color: #000000;
 }
 
 .background-tabs9 { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #000000;
-  margin: 0 auto;
+  background-size: cover;
   color: #ffffff;
 }
 
 .background-tabs6 { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #ffffff;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-tabs9fe { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #cee9de;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-book3{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #efefef;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-book3360{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #f8f8f8;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-book3ultra{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #ffffff;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-smarttag{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #ffffff;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-watch6{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #f4f4f4;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-buds2pro{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #f5f5f5;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
 .background-watch5pro{ 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-image: url('../imgs/galaxy-watch5pro_bg.png');
-  margin: 0 auto;
+  background-size: cover;
   color: #ffffff;
 }
 
 .background-budsfe { 
-  width: 1200px;
-  height: 2000px;
+  width: 100%;
+  height: auto;
   background-color: #deecea;
-  margin: 0 auto;
+  background-size: cover;
   color: #000000;
 }
 
