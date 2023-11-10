@@ -181,6 +181,15 @@ img{
     max-width: 10ch;
 }
 
+.tit-w5pro2-bateria{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -250,6 +259,16 @@ img{
     position: absolute;
     top: 75%;
     left: 20%;
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30ch;
+}
+
+.box-paragraph2-w5pro{
+    position: absolute;
+    top: 75%;
+    left: 23%;
 
     text-align: center;
     margin: 0 auto;
