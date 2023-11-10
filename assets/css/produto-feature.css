@@ -130,7 +130,8 @@ img{
     margin-top: -400px;
 }
 
-.box-item-w6{
+.box-item-w6,
+.box-item-buds{
     position: relative;
 }
 
@@ -146,6 +147,16 @@ img{
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%)
+}
+
+.tit-budspro-som{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+    max-width: 16ch;
 }
 
 .box-paragraph-w6{
@@ -171,6 +182,15 @@ img{
     max-width: 50ch;
 }
 
+.box-paragraph-buds{
+    position: absolute;
+    top: 47%;
+    left: -10%;
+
+    text-align: left;
+    max-width: 25ch;;
+}
+
 .box-tj-w6{
     position: absolute;
     top: 87%;
@@ -184,4 +204,14 @@ img{
 .box-tj2-w6{
     position: absolute;
     top: 85%;
+}
+
+.box-tj-buds{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+
+    text-align: left;
+    max-width: 40ch;
+     
 }
