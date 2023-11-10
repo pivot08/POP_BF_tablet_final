@@ -17,15 +17,16 @@
 .background-zfold { 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-zfold_bg.png');
+  background-color: #f4f4f4;
   margin: 0 auto;
   color: #000000;
+
 }
 
 .background-zflip { 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-zflip_bg.png');
+  background-color: #fefefe;
   margin: 0 auto;
   color: #000000;
 }
@@ -57,7 +58,7 @@
 .background-tabs9 { 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-tabs9_bg.png');
+  background-color: #000000;
   margin: 0 auto;
   color: #ffffff;
 }
@@ -65,7 +66,7 @@
 .background-tabs6 { 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-tabs6_bg.png');
+  background-color: #ffffff;
   margin: 0 auto;
   color: #000000;
 }
@@ -73,7 +74,7 @@
 .background-tabs9fe { 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-tabs9fe_bg.png');
+  background-color: #cee9de;
   margin: 0 auto;
   color: #000000;
 }
@@ -81,7 +82,7 @@
 .background-book3{ 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-book3_bg.png');
+  background-color: #efefef;
   margin: 0 auto;
   color: #000000;
 }
@@ -89,7 +90,7 @@
 .background-book3360{ 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-book3360_bg.png');
+  background-color: #f8f8f8;
   margin: 0 auto;
   color: #000000;
 }
@@ -97,7 +98,7 @@
 .background-book3ultra{ 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-book3ultra_bg.png');
+  background-color: #ffffff;
   margin: 0 auto;
   color: #000000;
 }
@@ -105,7 +106,7 @@
 .background-smarttag{ 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-smarttag_bg.png');
+  background-color: #ffffff;
   margin: 0 auto;
   color: #000000;
 }
@@ -113,7 +114,7 @@
 .background-watch6{ 
   width: 1200px;
   height: 2000px;
-  background-image: url('../imgs/galaxy-watch6_bg.png');
+  background-color: #f4f4f4;
   margin: 0 auto;
   color: #000000;
 }
@@ -156,3 +157,4 @@
   border-top-color: #ffffff;
 }
 
+.image-02-tabs6 {margin-top:-55px;}
