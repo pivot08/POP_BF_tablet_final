@@ -22,6 +22,11 @@
 .feature-budsfe-green{
     background-color: #deecea;
 }
+.feature-budsfe-image{
+    background-image: url('/assets/videos/budsfe/background.jpg');
+    background-size: cover; /* Ajuste conforme necessário */
+    background-repeat: no-repeat;
+}
 .feature-zfold-black,
 .feature-a54-black,
 .feature-a14-black,
@@ -314,4 +319,9 @@ img{
 .txt-tj-w5pro{
     text-align: center;
     max-width: 80ch;
+}
+
+.video-fe{
+    position: absolute;
+    top: 100%;
 }
