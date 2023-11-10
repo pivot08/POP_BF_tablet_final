@@ -159,6 +159,16 @@ img{
     max-width: 16ch;
 }
 
+.tit-budspro-resistencia{
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+    max-width: 16ch;
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -213,5 +223,9 @@ img{
 
     text-align: left;
     max-width: 40ch;
-     
+}
+
+.box-tj2-buds{
+    position: absolute;
+    top: 90%;
 }
