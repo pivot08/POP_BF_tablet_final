@@ -208,6 +208,15 @@ img{
     text-align: left;
 }
 
+.tit-smarttag{
+    position: absolute;
+    top: 63%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -308,6 +317,14 @@ img{
     top: 90%;
 }
 
+.box-paragraph-smarttag{
+    position: absolute;
+    top: 66%;
+    left: 9%;
+
+    text-align: left;
+}
+
 .txt-tj3-buds{
     position: absolute;
     top: 90%;
@@ -320,6 +337,11 @@ img{
 .txt-tj-w5pro{
     text-align: center;
     max-width: 80ch;
+}
+
+.box-tj-smarttag{
+    position: absolute;
+    top: 85%;
 }
 
 .video-fe{
