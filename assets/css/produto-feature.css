@@ -67,6 +67,7 @@
 .txt-pink{color:#ff004e;}
 .txt-grey{color: #646464;}
 .txt-blue{color: #47a8cd;}
+.tit-orange{color:#ff7f0c;}
 
 strong{
     font-weight: bolder;
@@ -140,6 +141,13 @@ img{
     transform: translate(-50%, -50%)
 }
 
+.tit-w6-monitoramento{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -153,6 +161,16 @@ img{
     font-family: 'Samsung InterFace Bold';
 }
 
+.box-paragraph2-w6{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 50ch;
+}
+
 .box-tj-w6{
     position: absolute;
     top: 87%;
@@ -161,4 +179,9 @@ img{
     font-family: 'SamsungOne';
     font-size: 16px;
     margin: 30px 80px;
+}
+
+.box-tj2-w6{
+    position: absolute;
+    top: 85%;
 }
