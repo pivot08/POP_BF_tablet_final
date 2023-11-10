@@ -190,6 +190,15 @@ img{
     text-align: center;
 }
 
+.tit-w5pro3-bateria{
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+}
+
 .box-paragraph-w6{
     position: absolute;
     top: 67%;
@@ -273,6 +282,16 @@ img{
     text-align: center;
     margin: 0 auto;
     max-width: 30ch;
+}
+
+.box-paragraph3-w5pro{
+    position: absolute;
+    top: 58%;
+    left: 55%;
+
+    text-align: left;
+    margin: 0 auto;
+    max-width: 25ch;
 }
 
 .box-tj2-buds{
