@@ -448,3 +448,8 @@ img{
 .respiro-34{margin-top: 80px;}
 .respiro-37{margin-top: 50px;}
 .respiro-47{margin-top: 70px;}
+
+video {
+    max-width: 928px;
+    margin: 0 auto;
+}
