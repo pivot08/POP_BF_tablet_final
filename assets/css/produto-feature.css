@@ -113,9 +113,7 @@ h4{
 .box-paragraph strong{
     margin: 0 auto;
     margin-bottom: 35px;
-
-    font-size: 40px;
-    font-weight: 15pt;
+    font-weight: 800;
     font-family: 'Samsung InterFace Bold';
 }
 
@@ -141,8 +139,30 @@ img{
 }
 
 .box-item-w6,
-.box-item-buds{
+.box-item-buds,
+.box-item-book3,
+.box-item-watch6{
     position: relative;
+}
+
+.tit-watch6{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-book3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.tit2-book3{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 .tit-w6-sono{
@@ -233,6 +253,22 @@ img{
     transform: translate(-50%, -50%);
 
     text-align: center;
+}
+
+.txt-book3{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    margin: 0 auto;
+    max-width: 40ch;
+}
+
+.txt2-book3{
+    position: absolute;
+    top: 23%;
+    left: 14%;
+    margin: 0 auto;
+    max-width: 40ch;
 }
 
 .box-paragraph-w6{
@@ -362,6 +398,11 @@ img{
     text-align: left;
 }
 
+.txt-watch6{
+    position: absolute;
+    top: 70%;
+}
+
 .txt-tj3-buds{
     position: absolute;
     top: 90%;
@@ -393,4 +434,22 @@ img{
 .video-fe{
     position: absolute;
     top: 100%;
+}
+
+
+.respiro-46 {
+    padding-top: 110px;
+}
+
+.respiro-10{margin-top: 80px;}
+.respiro-15{margin-top:208px}
+.respiro-16{margin-top:80px;}
+.respiro-33{margin-top: 50px;}
+.respiro-34{margin-top: 80px;}
+.respiro-37{margin-top: 50px;}
+.respiro-47{margin-top: 70px;}
+
+video {
+    max-width: 928px;
+    margin: 0 auto;
 }
