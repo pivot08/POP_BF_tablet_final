@@ -37,7 +37,7 @@
 
   width: 100%;
   height: auto;
-  background-image: url('../imgs/galaxy-a54_bg.png');
+  background-color: #f4f4f4;
   background-size: cover;
 
   color: #000000;
@@ -46,7 +46,7 @@
 .background-a34 { 
   width: 100%;
   height: auto;
-  background-image: url('../imgs/galaxy-a34_bg.png');
+  background-color: #f4f4f4;
   background-size: cover;
   color: #000000;
 }
@@ -54,7 +54,7 @@
 .background-a14 { 
   width: 100%;
   height: auto;
-  background-image: url('../imgs/galaxy-a14_bg.png');
+  background-color: #f4f4f4;
   background-size: cover;
   color: #000000;
 }
@@ -183,7 +183,7 @@
 
 .col-md-6.box-item.zfold h2 {
   position: absolute;
-  top: 880px;
+  top: 790px;
   font-size: 31px;
   line-height: 1.3;
   margin-left: 30px;
@@ -191,10 +191,11 @@
 
 .col-md-6.box-item.zflip h2 {
   position: absolute;
-  top: 880px;
+  top: 780px;
   font-size: 40px;
   line-height: 1.2;
   margin-left: 30px;
+  font-family: 'Samsung Sharp Sans'
 }
 
 .header-produto {
