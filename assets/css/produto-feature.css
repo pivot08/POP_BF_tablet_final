@@ -108,13 +108,17 @@ h4{
 }
 
 .box-paragraph{
-    margin: 0 auto;
+    margin: 0 auto !important;
     padding-bottom: 50px;
 
     font-size: 28px;
     line-height: 38px;
     font-family: 'Samsung InterFace';
     text-align: justify;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .box-paragraph strong{
