@@ -34,7 +34,8 @@
 .feature-s9-black,
 .feature-bookultra-black,
 .feature-watch6-black,
-.feature-smarttag-black{
+.feature-smarttag-black,
+.feature-a34-black{
     background-color: #000000;
 }
 
@@ -85,6 +86,7 @@
 .txt-8d8d8d{color:#8d8d8d;}
 .txt-a8a8a8{color:#a8a8a8;}
 .txt-585858{color:#585858;}
+.txt-7e7d7b{color:#7e7d7b}
 
 strong{
     font-weight: bolder;
