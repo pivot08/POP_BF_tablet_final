@@ -95,7 +95,7 @@ h3, h4, p{
 }
 
 h3{
-     font-size: 45px;
+    font-size: 45px;
     line-height: 55px;
 }
 
@@ -105,7 +105,7 @@ h4{
 }
 
 .box-paragraph{
-    margin: 0 auto;
+    margin: 0 auto 25px;
     font-size: 28px;
     line-height: 38px;
     font-family: 'Samsung InterFace';
@@ -115,7 +115,6 @@ h4{
 
 .box-paragraph strong{
     margin: 0 auto;
-    margin-bottom: 35px;
     font-weight: 800;
     font-family: 'Samsung InterFace Bold';
 }
@@ -123,7 +122,13 @@ h4{
 .box-tj{
     font-family: 'SamsungOne';
     font-size: 16px;
-    margin: 30px auto;
+    margin: 15px auto;
+}
+
+.box-tj.s23fe{
+    font-family: 'SamsungOne';
+    font-size: 16px;
+    margin: 0 auto 25px;
 }
 
 .feature-s23 .box-tj {color: #fdfdfd}
