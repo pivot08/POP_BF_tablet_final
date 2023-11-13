@@ -122,7 +122,7 @@ h4{
 .box-tj{
     font-family: 'SamsungOne';
     font-size: 16px;
-    margin: 15px auto;
+    margin: 25px auto;
     line-height: 1.5;
 }
 
@@ -148,7 +148,8 @@ h4{
 }
 
 .feature-a34-black .box-tj.a34.text-gray.feature-3 {
-    margin: 0 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .feature-a14-e4e3e0 .box-tj.a14.text-gray {color: #737373;}
@@ -472,12 +473,18 @@ img{
     padding-top: 110px;
 }
 
+.respiro-138 {
+    margin-top: 98px;
+}
+
 .respiro-10{margin-top: 80px;}
 .respiro-15{margin-top:208px}
 .respiro-16{margin-top:80px;}
 .respiro-33{margin-top: 50px;}
 .respiro-34{margin-top: 80px;}
 .respiro-37{margin-top: 50px;}
+.respiro-37_2{margin-top: 30px;}
+.respiro-37_3{margin-top: 10px;}
 .respiro-47{margin-top: 70px;}
 
 video {
