@@ -106,7 +106,7 @@ h4{
 }
 
 .box-paragraph{
-    margin: 0 120px;
+    margin: 0 auto;
     padding-bottom: 20px;
 
     font-size: 28px;
@@ -125,6 +125,7 @@ h4{
     font-family: 'SamsungOne';
     font-size: 16px;
     margin: 30px 80px;
+    color: #fdfdfd
 }
 
 video{
