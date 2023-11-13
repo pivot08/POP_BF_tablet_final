@@ -1,5 +1,5 @@
 .feature{
-    height: 100vh;
+    height: 115vh;
 
     display: flex;
     justify-content: center;
@@ -487,3 +487,19 @@ video {
 }
 
 .video-zfold {margin-left: 150px;}
+
+
+video {
+    margin: 0 auto;
+    scale: 1.16;
+    padding-top: 32px;
+    padding-bottom:32px;
+}
+
+
+.bt-voltar-absolute {
+    padding-top: 27px;
+    padding-left: 781px;
+    opacity: 0.4;
+    margin-bottom: -90px;
+}
