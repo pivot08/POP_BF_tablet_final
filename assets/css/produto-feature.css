@@ -43,7 +43,8 @@
 .feature-a54-white,
 .feature-book-white,
 .feature-book360-white,
-.feature-bookultra-white{
+.feature-bookultra-white,
+.feature-smarttag-white{
     background-color: #ffffff;
 }
 
@@ -81,6 +82,8 @@
 .txt-d5cae5{color:#d5cae5;}
 .txt-7c8483{color:#7c8483;}
 .txt-757575{color:#757575;}
+.txt-8d8d8d{color:#8d8d8d;}
+.txt-a8a8a8{color:#a8a8a8;}
 
 strong{
     font-weight: bolder;
