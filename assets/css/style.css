@@ -81,7 +81,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: 'Samsung InterFace Bold';
-  src: url("SamsungIF_Rg.ttf") format('truetype');
+  src: url("font_bold.ttf") format('truetype');
   font-weight: 800;
   font-display: swap;
 }

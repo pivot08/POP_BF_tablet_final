@@ -1,0 +1,463 @@
+.feature{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.feature-s23{
+    background-color: #212121;
+}
+
+.feature-s23 video{
+    width: 100%;
+}
+
+.feature-s23fe{
+    background-color: #020202;
+}
+
+.feature-s23fe-green{
+    background-color: #d5e5e1;
+}
+
+.feature-budsfe-green{
+    background-color: #deecea;
+}
+.feature-budsfe-image{
+    background-image: url('/assets/videos/budsfe/background.jpg');
+    background-size: cover; /* Ajuste conforme necessário */
+    background-repeat: no-repeat;
+}
+.feature-zfold-black,
+.feature-a54-black,
+.feature-a14-black,
+.feature-s9-black,
+.feature-bookultra-black,
+.feature-watch6-black,
+.feature-smarttag-black{
+    background-color: #000000;
+}
+
+.feature-zfold-white,
+.feature-zflip-white,
+.feature-a54-white,
+.feature-book-white,
+.feature-book360-white,
+.feature-bookultra-white{
+    background-color: #ffffff;
+}
+
+.feature-zflip-f1ebe1{
+    background-color: #f1ebe1;
+}
+
+.feature-a14-e4e3e0{
+    background-color: #e4e3e0;
+}
+.feature-a14-ebf2e0{
+    background-color: #ebf2e0;
+}
+.feature-s9FE-eaf5f1,
+.feature-s9FE-eaf5f1{
+    background-color: #eaf5f1;
+}
+
+.feature-book-f8f8f8,
+.feature-book36-f8f8f8{
+    background-color: #f8f8f8;
+}
+
+.tit-snapdragon{color: #fd5051;}
+.tit-nightography{color: #c03a36;}
+.tit-nightography-s23fe{color: #c2d5ca;}
+.txt-white{color: #ffffff;}
+.txt-black{color: #000000;}
+.txt-green{color: #79af68;}
+.txt-green2{color:#80c606;}
+.txt-pink{color:#ff004e;}
+.txt-grey{color: #646464;}
+.txt-blue{color: #47a8cd;}
+.tit-orange{color:#ff7f0c;}
+.txt-d5cae5{color:#d5cae5;}
+
+strong{
+    font-weight: bolder;
+}
+
+h3, h4, p{
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3{
+    margin-bottom: 30px;
+
+    font-size: 45px;
+    line-height: 55px;
+}
+
+h4{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.box-paragraph{
+    margin: 0 120px;
+    padding-bottom: 20px;
+
+    font-size: 28px;
+    line-height: 38px;
+    font-family: 'Samsung InterFace';
+}
+
+.box-paragraph strong{
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-weight: 800;
+    font-family: 'Samsung InterFace Bold';
+}
+
+.box-tj{
+    font-family: 'SamsungOne';
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+video{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+.mt{
+    position: absolute;
+
+    margin-top: -400px;
+}
+
+.box-item-w6,
+.box-item-buds,
+.box-item-book3,
+.box-item-watch6{
+    position: relative;
+}
+
+.tit-watch6{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-book3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+.tit2-book3{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-w6-sono{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-w6-monitoramento{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.tit-budspro-som{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+    max-width: 16ch;
+}
+
+.tit-budspro-resistencia{
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 16ch;
+}
+
+.tit-w5pro-bateria{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    max-width: 10ch;
+}
+
+.tit-w5pro2-bateria{
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.tit-w5pro3-bateria{
+    position: absolute;
+    top: 22%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+}
+
+.tit-smarttag{
+    position: absolute;
+    top: 63%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+
+    text-align: left;
+}
+
+.tit2-smarttag{
+    position: absolute;
+    top: 32%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+
+    text-align: right;
+}
+
+.tit3-smarttag{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.txt-book3{
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    margin: 0 auto;
+    max-width: 40ch;
+}
+
+.txt2-book3{
+    position: absolute;
+    top: 23%;
+    left: 14%;
+    margin: 0 auto;
+    max-width: 40ch;
+}
+
+.box-paragraph-w6{
+    position: absolute;
+    top: 67%;
+    left: 28%;
+
+    margin: 0 auto;
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 25ch;
+
+    font-family: 'Samsung InterFace Bold';
+}
+
+.box-paragraph2-w6{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 50ch;
+}
+
+.box-paragraph-buds{
+    position: absolute;
+    top: 47%;
+    left: -10%;
+
+    text-align: left;
+    max-width: 25ch;;
+}
+
+.box-paragraph2-buds{
+    position: absolute;
+    top: 43%;
+    left: -10%;
+
+    text-align: left;
+    max-width: 25ch;;
+}
+
+.box-tj-w6{
+    position: absolute;
+    top: 87%;
+    
+
+    font-family: 'SamsungOne';
+    font-size: 16px;
+    margin: 30px 80px;
+}
+
+.box-tj2-w6{
+    position: absolute;
+    top: 85%;
+}
+
+.box-tj-buds{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+
+    text-align: left;
+    max-width: 40ch;
+}
+
+.box-paragraph-w5pro{
+    position: absolute;
+    top: 75%;
+    left: 20%;
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30ch;
+}
+
+.box-paragraph2-w5pro{
+    position: absolute;
+    top: 75%;
+    left: 23%;
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 30ch;
+}
+
+.box-paragraph3-w5pro{
+    position: absolute;
+    top: 58%;
+    left: 55%;
+
+    text-align: left;
+    margin: 0 auto;
+    max-width: 25ch;
+}
+
+.box-tj2-buds{
+    position: absolute;
+    top: 90%;
+}
+
+.box-paragraph-smarttag{
+    position: absolute;
+    top: 66%;
+    left: 9%;
+
+    text-align: left;
+}
+
+.box-paragraph2-smarttag{
+    position: absolute;
+    top: 38%;
+    right: 37%;
+
+    text-align: right;
+}
+
+.box-paragraph3-smarttag{
+    position: absolute;
+    top: 43%;
+    left: 38%;
+
+    font-size: 26px;
+    line-height: 31px;
+
+    text-align: left;
+}
+
+.txt-watch6{
+    position: absolute;
+    top: 70%;
+}
+
+.txt-tj3-buds{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+
+    text-align: left;
+    max-width: 40ch;
+}
+
+.txt-tj-w5pro{
+    text-align: center;
+    max-width: 80ch;
+}
+
+.box-tj-smarttag{
+    position: absolute;
+    top: 85%;
+}
+
+.box-tj2-smarttag{
+    position: absolute;
+    top: 90%;
+}
+.box-tj3-smarttag{
+    position: absolute;
+    top: 70%;
+}
+
+.video-fe{
+    position: absolute;
+    top: 100%;
+}
+
+
+.respiro-46 {
+    padding-top: 110px;
+}
+
+.respiro-10{margin-top: 80px;}
+.respiro-15{margin-top:208px}
+.respiro-16{margin-top:80px;}
+.respiro-33{margin-top: 50px;}
+.respiro-34{margin-top: 80px;}
+.respiro-37{margin-top: 50px;}
+.respiro-47{margin-top: 70px;}
+
+video {
+    max-width: 837px;
+    margin: 0 auto;
+}
+
+.text-strong {
+    font-family: 'Samsung InterFace Bold';
+}
