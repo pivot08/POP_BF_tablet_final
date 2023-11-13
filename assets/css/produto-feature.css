@@ -1,5 +1,6 @@
 .feature{
     height: 100vh;
+    width: 100vw;
 
     display: flex;
     justify-content: center;
@@ -78,6 +79,8 @@
 .txt-blue{color: #47a8cd;}
 .tit-orange{color:#ff7f0c;}
 .txt-d5cae5{color:#d5cae5;}
+.txt-7c8483{color:#7c8483;}
+.txt-757575{color:#757575;}
 
 strong{
     font-weight: bolder;
@@ -102,12 +105,13 @@ h4{
 }
 
 .box-paragraph{
-    margin: 0 120px;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 
     font-size: 28px;
     line-height: 38px;
     font-family: 'Samsung InterFace';
+    text-align: justify;
 }
 
 .box-paragraph strong{
@@ -138,48 +142,48 @@ img{
     margin-top: -400px;
 }
 
-.box-item-w6,
+/* .box-item-w6,
 .box-item-buds,
 .box-item-book3,
 .box-item-watch6{
     position: relative;
-}
+} */
 
-.tit-watch6{
+/* .tit-watch6{
     position: absolute;
     top: 18%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.tit-book3{
+/* .tit-book3{
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
-.tit2-book3{
+} */
+/* .tit2-book3{
     position: absolute;
     top: 12%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.tit-w6-sono{
+/* .tit-w6-sono{
     position: absolute;
     top: 22%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.tit-w6-monitoramento{
+/* .tit-w6-monitoramento{
     position: absolute;
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%)
-}
+} */
 
-.tit-budspro-som{
+/* .tit-budspro-som{
     position: absolute;
     top: 38%;
     left: 30%;
@@ -187,9 +191,9 @@ img{
 
     text-align: left;
     max-width: 16ch;
-}
+} */
 
-.tit-budspro-resistencia{
+/* .tit-budspro-resistencia{
     position: absolute;
     top: 38%;
     left: 20%;
@@ -198,9 +202,9 @@ img{
     text-align: center;
     margin: 0 auto;
     max-width: 16ch;
-}
+} */
 
-.tit-w5pro-bateria{
+/* .tit-w5pro-bateria{
     position: absolute;
     top: 20%;
     left: 50%;
@@ -208,8 +212,8 @@ img{
 
     text-align: center;
     max-width: 10ch;
-}
-
+} */
+/*
 .tit-w5pro2-bateria{
     position: absolute;
     top: 18%;
@@ -217,27 +221,27 @@ img{
     transform: translate(-50%, -50%);
 
     text-align: center;
-}
+} */
 
-.tit-w5pro3-bateria{
+/* .tit-w5pro3-bateria{
     position: absolute;
     top: 22%;
     left: 40%;
     transform: translate(-50%, -50%);
 
     text-align: left;
-}
+} */
 
-.tit-smarttag{
+/* .tit-smarttag{
     position: absolute;
     top: 63%;
     left: 46%;
     transform: translate(-50%, -50%);
 
     text-align: left;
-}
+} */
 
-.tit2-smarttag{
+/* .tit2-smarttag{
     position: absolute;
     top: 32%;
     left: 46%;
@@ -253,9 +257,9 @@ img{
     transform: translate(-50%, -50%);
 
     text-align: center;
-}
+} */
 
-.txt-book3{
+/* .txt-book3{
     position: absolute;
     top: 13%;
     left: 13%;
@@ -282,9 +286,9 @@ img{
     max-width: 25ch;
 
     font-family: 'Samsung InterFace Bold';
-}
+} */
 
-.box-paragraph2-w6{
+/* .box-paragraph2-w6{
     position: absolute;
     top: 70%;
     left: 8%;
@@ -310,12 +314,12 @@ img{
 
     text-align: left;
     max-width: 25ch;;
-}
+} */
 
-.box-tj-w6{
+/* .box-tj-w6{
     position: absolute;
     top: 87%;
-    
+
 
     font-family: 'SamsungOne';
     font-size: 16px;
@@ -334,9 +338,9 @@ img{
 
     text-align: left;
     max-width: 40ch;
-}
+} */
 
-.box-paragraph-w5pro{
+/* .box-paragraph-w5pro{
     position: absolute;
     top: 75%;
     left: 20%;
@@ -354,9 +358,9 @@ img{
     text-align: center;
     margin: 0 auto;
     max-width: 30ch;
-}
+} */
 
-.box-paragraph3-w5pro{
+/* .box-paragraph3-w5pro{
     position: absolute;
     top: 58%;
     left: 55%;
@@ -385,7 +389,7 @@ img{
     right: 37%;
 
     text-align: right;
-}
+} */
 
 .box-paragraph3-smarttag{
     position: absolute;
@@ -452,4 +456,28 @@ img{
 video {
     max-width: 957px;
     margin: 0 auto;
+}
+
+.box-item-buds{
+    margin: 0 auto;
+}
+
+/* watch 5 pro */
+/* .tit-w5pro3-bateria{
+    margin-bottom: -120px;
+} */
+
+.box-paragraph-w5pro{
+    text-align: center;
+    margin-top: -400px
+}
+
+.box-paragraph2-w5pro{
+    text-align: center;
+    margin-top: -400px
+}
+
+.box-paragraph3-w5pro{
+    margin-top: -590px;
+    margin-left: 520px;
 }
