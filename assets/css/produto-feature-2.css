@@ -123,17 +123,29 @@ h4{
     font-family: 'SamsungOne';
     font-size: 16px;
     margin: 15px auto;
+    line-height: 1.5;
 }
 
 .box-tj.s23fe{
     font-family: 'SamsungOne';
     font-size: 16px;
     margin: 0 auto 25px;
+    line-height: 1.5;
 }
 
-.feature-s23 .box-tj {color: #fdfdfd}
-.feature-s23fe .box-tj {color: #767676}
-.feature-zfold-black .box-tj {color: #747475}
+.feature-s23 .box-tj.s23.txt-offwhite {color: #fdfdfd}
+.feature-s23fe .box-tj.s23fe.text-gray {color: #767676}
+.feature-s23fe .box-tj.s23fe.text-black {color: #767676}
+.feature-zfold-black .box-tj.zfold.text-black {color: #000000}
+.feature-zfold-black .box-tj.zfold.text-gray {color: #747475}
+.feature-a54-black .box-tj.a54.text-gray  {
+    color: #737373;
+    text-align: justify;
+}
+
+.feature-a54-black .box-tj.a54.text-white {
+    color: #ffffff;
+}
 
 
 video{
