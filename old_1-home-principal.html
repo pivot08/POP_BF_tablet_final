@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/dependencies/owl.carousel/dist/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/dependencies/owl.carousel/dist/assets/owl.theme.default.min.css">	
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/1-home-principal.css">
+    <link rel="stylesheet" href="assets/css/animacoes.css">
+    <style>video {width: 100%;}
+        body {scale:1.0 !important;margin-top: 0px;}
+        
+        .videos-2 {
+    
+    display: block;
+    width: 103% !IMPORTANT;
+    MARGIN-LEFT: -12px;
+    margin-top:-18px;
+}
+
+header {scale: 0.9;margin-top:-4px;}
+</style>
+   
+
+    <title>Samsung</title>
+</head>
+<body>
+    <div id="container">
+    <section class="">
+        <div class="container">
+            <div class="div_video">
+                <video autoplay loop muted>
+                    <source src="assets/videos/_intro/Intro.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="div_button">
+                <a href="./2-categoria.html" class="btn_start">
+                    <div class="button">
+                        <img src="assets/imgs/1_home-principal_hand.png" class="button_icon">
+                        <h2 class="button_text">Aperte aqui<br/> para iniciar</h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script>
+        const button = document.querySelector(".btn_start");
+        const box = document.querySelector(".button");
+
+        button.addEventListener("click", ()=> {
+            box.style.animation = "";
+            setTimeout(() => box.style.animation = "on_click", 5);
+        });
+    </script>
+</body>
+</html>
+                          

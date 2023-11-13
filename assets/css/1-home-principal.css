@@ -20,7 +20,7 @@ h2 {
 }
 
 
-.section01_home_principal .div_button {
+.div_button {
   margin: 0 auto;
   width: 1080px;
   height: 460px;
@@ -31,12 +31,12 @@ h2 {
 
 }
 
-.section01_home_principal .div_button a {
+.div_button a {
   text-decoration: none;
   color: #000000;
 }
 
-.section01_home_principal .button {
+.button {
   margin: 0 auto;
   width: 1042px;
   border: 2px solid #000000;
@@ -49,17 +49,17 @@ h2 {
   padding: 80px 0 110px;
 }
 
-.section01_home_principal .button:active {
+.button:active {
   box-shadow: none;
   animation-timing-function: cubic-bezier(0, 0, 0.58, 1);
   animation-duration: 300ms;
 }
 
-.section01_home_principal .button::after {
+.button::after {
   box-shadow: none;
 }
 
-.section01_home_principal .button_icon {
+.button_icon {
   width: 150px;
   height: 250px;
 }
@@ -67,4 +67,19 @@ h2 {
 
 video {width: 100%;}
 body {scale:1.0;}
-.container {width: 100%;max-width: 100%;padding:0px;}
+.container {scale: 1.05;}
+
+.button {
+  margin: 0 auto;
+  width: 1042px;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  box-shadow: 30px 30px #b5cdc6;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 0 110px;
+  scale: 0.7;
+  margin-left: -120px;
+}
