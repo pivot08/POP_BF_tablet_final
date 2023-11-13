@@ -463,10 +463,11 @@ img{
 .respiro-47{margin-top: 70px;}
 
 video {
-    max-width: 837px;
     margin: 0 auto;
 }
 
 .text-strong {
     font-family: 'Samsung InterFace Bold';
 }
+
+.video-zfold {margin-left: 150px;}
