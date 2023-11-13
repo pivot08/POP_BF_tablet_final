@@ -33,6 +33,7 @@
 }
 .feature-zfold-black,
 .feature-a54-black,
+.feature-a4-black,
 .feature-a14-black,
 .feature-s9-black,
 .feature-bookultra-black,
@@ -94,9 +95,7 @@ h3, h4, p{
 }
 
 h3{
-    margin-bottom: 30px;
-
-    font-size: 45px;
+     font-size: 45px;
     line-height: 55px;
 }
 
@@ -107,8 +106,6 @@ h4{
 
 .box-paragraph{
     margin: 0 auto;
-    padding-bottom: 20px;
-
     font-size: 28px;
     line-height: 38px;
     font-family: 'Samsung InterFace';
@@ -124,9 +121,13 @@ h4{
 .box-tj{
     font-family: 'SamsungOne';
     font-size: 16px;
-    margin: 30px 80px;
-    color: #fdfdfd
+    margin: 30px auto;
 }
+
+.feature-s23 .box-tj {color: #fdfdfd}
+.feature-s23fe .box-tj {color: #767676}
+.feature-zfold-black .box-tj {color: #747475}
+
 
 video{
     max-width: 100%;
