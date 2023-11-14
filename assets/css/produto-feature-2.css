@@ -24,13 +24,11 @@
 }
 
 .feature-budsfe-green{
-    background-color: #deecea;
-}
-.feature-budsfe-image{
-    background-image: url('/assets/videos/budsfe/background.jpg');
+    background-image: url('../imgs/galaxy-budsfe-feature2_bg.png');
     background-size: cover; /* Ajuste conforme necessário */
     background-repeat: no-repeat;
 }
+
 .feature-zfold-black,
 .feature-a54-black,
 .feature-a34-black,
