@@ -525,3 +525,8 @@ video {
     opacity: 0.4;
     margin-bottom: -90px;
 }
+
+.nav-back {
+    width: 50px !important;
+    scale: 1.2 !important;
+}
