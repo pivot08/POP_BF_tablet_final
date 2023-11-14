@@ -28,6 +28,13 @@
     background-size: cover; /* Ajuste conforme necessário */
     background-repeat: no-repeat;
 }
+.feature-watch6-image{
+    background-image: url('/assets/videos/watch6/background.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
 .feature-zfold-black,
 .feature-a54-black,
 .feature-a14-black,
@@ -150,6 +157,36 @@ img{
     position: absolute;
 
     margin-top: -400px;
+}
+
+.box-item-w6{
+    position: absolute;
+}
+
+.tit-w6,
+.box-paragraph-w6,
+.box-tj2-w6{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tit-w6{
+    top: 23%;
+    font-size: 37px;
+    line-height: 42px;
+}
+
+.box-paragraph-w6{
+    top: 68%;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.box-tj2-w6{
+    top: 90%
 }
 
 
