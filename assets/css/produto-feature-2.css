@@ -25,6 +25,8 @@
 
 .feature-budsfe-green{
     background-image: url('../imgs/galaxy-budsfe-feature2_bg.png');
+    background-size: cover; /* Ajuste conforme necessário */
+    background-repeat: no-repeat;
 }
 
 .feature-zfold-black,
