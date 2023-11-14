@@ -119,11 +119,17 @@ h4{
     font-family: 'Samsung InterFace Bold';
 }
 
-.box-tj{
+.box-tj {
     font-family: 'SamsungOne';
-    font-size: 16px;
-    margin: 15px auto;
+    font-size: 4px !important;
+    margin: 25px auto;
     line-height: 1.5;
+    text-align: center;
+    opacity: 0.5;
+}
+
+h3.txt-white {
+    margin-bottom: 10px;
 }
 
 .box-tj.s23fe{
@@ -134,21 +140,29 @@ h4{
 }
 
 .feature-s23 .box-tj.s23.txt-offwhite {color: #fdfdfd}
-.feature-s23fe .box-tj.s23fe.text-gray {color: #767676}
-.feature-s23fe .box-tj.s23fe.text-black {color: #767676}
+.feature-s23fe .box-tj.s23fe.text-gray {color: #fff;text-align: center;}
+.feature-s23fe .box-tj.s23fe.text-black,.txt-8d8d8d,.txt-585858 {color: #767676}
 .feature-zfold-black .box-tj.zfold.text-black {color: #000000}
-.feature-zfold-black .box-tj.zfold.text-gray {color: #747475}
+.feature-zfold-black .box-tj.zfold.text-gray {color: #fff}
 .feature-a54-black .box-tj.a54.text-gray,   .feature-a34-black .box-tj.a34.text-gray {
-    color: #737373;
+    
     text-align: justify;
 }
 
+h3.txt-black {
+    padding-bottom: 20px;
+}
+
+h3.txt-blue {
+    padding-bottom: 20px;
+}
 .feature-a54-black .box-tj.a54.text-white {
     color: #ffffff;
 }
 
 .feature-a34-black .box-tj.a34.text-gray.feature-3 {
-    margin: 0 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .feature-a14-e4e3e0 .box-tj.a14.text-gray {color: #737373;}
@@ -472,12 +486,18 @@ img{
     padding-top: 110px;
 }
 
+.respiro-138 {
+    margin-top: 98px;
+}
+
 .respiro-10{margin-top: 80px;}
 .respiro-15{margin-top:208px}
 .respiro-16{margin-top:80px;}
 .respiro-33{margin-top: 50px;}
 .respiro-34{margin-top: 80px;}
 .respiro-37{margin-top: 50px;}
+.respiro-37_2{margin-top: 30px;}
+.respiro-37_3{margin-top: 10px;}
 .respiro-47{margin-top: 70px;}
 
 video {
@@ -494,8 +514,8 @@ video {
 video {
     margin: 0 auto;
     scale: 1.16;
-    padding-top: 32px;
-    padding-bottom:32px;
+    padding-top: 51px;
+    padding-bottom: 51px;
 }
 
 
