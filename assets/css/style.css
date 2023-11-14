@@ -122,27 +122,15 @@ h1, h2, h3, h4, h5, ul, li, p {
 
 .header-center {
   background-color: #000;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
   color: #fff;
   height: 70px;
   font-size: 26px;
   position: relative;
 }
 
-.header-center:after {
-  top: 100%;
-  left: 50%;
-  border: solid transparent;
-  content: "";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none;
-  border-top-color: #000;
-  border-width: 35px;
-  margin-left: -35px;
-}
+
 
 .header-links {
   display: inline-block;
@@ -239,4 +227,10 @@ body {
 
 body.animate__slideOutLeft {
   animation-duration: 0.5s !important; /* Ajuste o tempo conforme necessário */
+}
+
+.seta-preta-menu {
+  position: absolute;
+  max-width: 50px;
+  margin-top: 89px;
 }
