@@ -234,4 +234,9 @@ h1, h2, h3, h4, h5, ul, li, p {
 
 body {
   overflow: hidden !important;
+
+}
+
+body.animate__slideOutLeft {
+  animation-duration: 0.5s !important; /* Ajuste o tempo conforme necessário */
 }
