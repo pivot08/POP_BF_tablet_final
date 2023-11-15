@@ -11,6 +11,12 @@
 
     <link rel="stylesheet" href="assets/css/animacoes.css">
     <title>Samsung</title>
+    <style>
+        .videoPromo {position: absolute;z-index: 99999;margin-left:-2px;margin-top: -2px;border-radius: 30px;max-width: 378px;}
+        .grav-dados, .try-galaxy {
+        margin-top: 8px;
+    }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -93,5 +99,12 @@
     <script src="assets/dependencies/jquery/jquery.min.js"></script>
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="assets/js/utils.js"></script>
+    <script>
+        // Espera 16 segundos e depois oculta o vídeo
+        setTimeout(function () {
+            var videoPromo = document.querySelector('.videoPromo');
+            videoPromo.style.display = 'none';
+        }, 16000);
+    </script>
 </body>
 </html>

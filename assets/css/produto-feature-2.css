@@ -525,6 +525,6 @@ video {
 }
 
 .nav-back {
-    width: 50px !important;
-    scale: 1.2 !important;
+    width: 70px !important;
+    max-width: 50px !important;
 }
