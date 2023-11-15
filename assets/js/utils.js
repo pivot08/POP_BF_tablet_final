@@ -29,26 +29,4 @@ $(document).ready(function () {
         }
     
 
-// script.js
-$(document).ready(function () {
-    $('a').on('click', function (event) {
-      event.preventDefault();
-      const targetPage = $(this).attr('href');
-      
-      if ($(this).hasClass('header-links')) {
-        // Se o link tiver a classe header-links, a animação será para a esquerda
-        $('body').addClass('animate__animated animate__slideOutRight').on('animationend', function() {
-          window.location.href = targetPage;
-        });
-      } else {
-        // Para outros links, a animação será para a direita
-        $('body').addClass('animate__animated animate__slideOutLeft').on('animationend', function() {
-          window.location.href = targetPage;
-        });
-      }
-    });
-  });
-  
-  
-  
   
