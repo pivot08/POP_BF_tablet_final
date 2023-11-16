@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.feature-s23fe{
+.feature-s23fe {
     background-color: #020202;
 }
 
@@ -488,15 +488,15 @@ img{
     margin-top: 98px;
 }
 
-.respiro-10{margin-top: 80px;}
-.respiro-15{margin-top:208px}
-.respiro-16{margin-top:80px;}
-.respiro-33{margin-top: 50px;}
-.respiro-34{margin-top: 80px;}
-.respiro-37{margin-top: 50px;}
-.respiro-37_2{margin-top: 30px;}
-.respiro-37_3{margin-top: 10px;}
-.respiro-47{margin-top: 70px;}
+.respiro-10{padding-top: 80px;}
+.respiro-15{padding-top:208px}
+.respiro-16{padding-top:80px;}
+.respiro-33{padding-top: 50px;}
+.respiro-34{padding-top: 80px;}
+.respiro-37{padding-top: 50px;}
+.respiro-37_2{padding-top: 30px;}
+.respiro-37_3{padding-top: 10px;}
+.respiro-47{padding-top: 70px;}
 
 video {
     margin: 0 auto;
@@ -517,14 +517,17 @@ video {
 }
 
 
-.bt-voltar-absolute {
-    padding-top: 27px;
-    padding-left: 781px;
-    opacity: 0.4;
-    margin-bottom: -90px;
-}
+
 
 .nav-back {
     width: 70px !important;
     max-width: 50px !important;
+}
+
+.bt-voltar-absolute {
+    padding-top: 45px;
+    padding-left: 781px;
+    opacity: 0.4;
+    margin-bottom: -90px;
+    position: absolute;
 }
