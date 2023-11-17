@@ -526,8 +526,15 @@ video {
 
 .bt-voltar-absolute {
     padding-top: 45px;
-    padding-left: 761px;
     opacity: 0.4;
     margin-bottom: -90px;
     position: absolute;
+    width: 100%;
+    top: 0px;
+    border: 0px;
+    left: 0;
+    margin-left: 0;
+    scale: 1.12;
+    text-align: right;
+    padding-right: 40px;
 }
