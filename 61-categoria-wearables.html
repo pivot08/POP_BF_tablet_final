@@ -19,82 +19,85 @@
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="row justify-content-md-center">
-                <div class="col-md-2 header-left">
-                    <a href="1-home-principal.html" class="header-links">    
-                        <img src="assets/imgs/nav_home.svg" alt="" class="nav-home">     
-                    </a>
-                </div>
-                <div class="col-md-8 header-center">
-                    <img src="assets/imgs/seta-preta.png" class="seta-preta-menu">
-                    Selecione o Galaxy desejado
-                </div>
-                <div class="col-md-2 header-right">
-                    <a href="javascript:history.go(-1);" class="header-links">
-                        <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 box-item box-item-bordered-in">
-                    <div class="box-item-bordered">
-                        <h3 class="box-item-bordered-title">SmartTag2</h3>  
-                        <a href="62-produtopaginafeature-smarttag.html"><img src="assets/imgs/smartTag2.png" alt="" class="img-fluid smartTag">      </a>
+    <div id="loading-overlay">Carregando...</div>
+    <div id="loadingContainer" style="display:none;"> 
+        <header class="header">
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-md-2 header-left">
+                        <a href="1-home-principal.html" class="header-links">    
+                            <img src="assets/imgs/nav_home.svg" alt="" class="nav-home">     
+                        </a>
+                    </div>
+                    <div class="col-md-8 header-center">
+                        <img src="assets/imgs/seta-preta.png" class="seta-preta-menu">
+                        Selecione o Galaxy desejado
+                    </div>
+                    <div class="col-md-2 header-right">
+                        <a href="javascript:history.go(-1);" class="header-links">
+                            <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
+                        </a>
                     </div>
                 </div>
-                <div class="col-md-6 box-item">
-                    <div class="row">
-                        <div class="col-md-6 eco-galaxy">
-                            <a href="82-ecossistema-galaxy.html" class="box-link">
-                                <img src="assets/imgs/ecossistema-galaxy.png" alt="" class="box-img img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-md-6 cadeado-galaxy">
-                            <a href="83-cadeado-galaxy.html" class="box-link">
-                                <img src="assets/imgs/cadeado-galaxy.png" alt="" class="box-img img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-md-6 grav-dados">
-                            <a href="84-migracao-dados.html" class="box-link">
-                                <img src="assets/imgs/migracao-de-dados.png" alt="" class="box-img img-fluid">
-                            </a>
-                        </div>
-                        <div class="col-md-6 try-galaxy">
-                            <a href="85-try-galaxy.html" class="box-link">
-                                <img src="assets/imgs/try-galaxy.png" alt="" class="box-img img-fluid">
-                            </a>
+            </div>
+        </header>
+        <section class="wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 box-item box-item-bordered-in">
+                        <div class="box-item-bordered">
+                            <h3 class="box-item-bordered-title">SmartTag2</h3>  
+                            <a href="62-produtopaginafeature-smarttag.html"><img src="assets/imgs/smartTag2.png" alt="" class="img-fluid smartTag">      </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6 box-item">
-                    <a href="66-produtopaginafeature-watch6.html" class="box-link">
-                        <img src="assets/imgs/galaxy-watch-6.png" alt="" class="box-img img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6 box-item">
-                    <a href="70-produtopaginafeature-buds2pro.html" class="box-link">
-                        <img src="assets/imgs/galaxy-buds2-pro.png" alt="" class="box-img img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6 box-item">
-                    <a href="74-produtopaginafeature-watch5pro.html" class="box-link">   
-                        <img src="assets/imgs/galaxy-watch5-pro.png" alt="" class="box-img img-fluid">
-                    </a>
-                </div>
-                <div class="col-md-6 box-item">
-                    <a href="78-produtopaginafeature-budsfe2.html" class="box-link">
-                        <img src="assets/imgs/galaxy-buds-fe.png" alt="" class="box-img img-fluid">
-                    </a>
+                    <div class="col-md-6 box-item">
+                        <div class="row">
+                            <div class="col-md-6 eco-galaxy">
+                                <a href="82-ecossistema-galaxy.html" class="box-link">
+                                    <img src="assets/imgs/ecossistema-galaxy.png" alt="" class="box-img img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-md-6 cadeado-galaxy">
+                                <a href="83-cadeado-galaxy.html" class="box-link">
+                                    <img src="assets/imgs/cadeado-galaxy.png" alt="" class="box-img img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-md-6 grav-dados">
+                                <a href="84-migracao-dados.html" class="box-link">
+                                    <img src="assets/imgs/migracao-de-dados.png" alt="" class="box-img img-fluid">
+                                </a>
+                            </div>
+                            <div class="col-md-6 try-galaxy">
+                                <a href="85-try-galaxy.html" class="box-link">
+                                    <img src="assets/imgs/try-galaxy.png" alt="" class="box-img img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 box-item">
+                        <a href="66-produtopaginafeature-watch6.html" class="box-link">
+                            <img src="assets/imgs/galaxy-watch-6.png" alt="" class="box-img img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 box-item">
+                        <a href="70-produtopaginafeature-buds2pro.html" class="box-link">
+                            <img src="assets/imgs/galaxy-buds2-pro.png" alt="" class="box-img img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 box-item">
+                        <a href="74-produtopaginafeature-watch5pro.html" class="box-link">   
+                            <img src="assets/imgs/galaxy-watch5-pro.png" alt="" class="box-img img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-6 box-item">
+                        <a href="78-produtopaginafeature-budsfe2.html" class="box-link">
+                            <img src="assets/imgs/galaxy-buds-fe.png" alt="" class="box-img img-fluid">
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- JS -->
     <script src="assets/dependencies/jquery/jquery.min.js"></script>
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>

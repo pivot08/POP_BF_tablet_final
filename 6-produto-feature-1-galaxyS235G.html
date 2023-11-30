@@ -12,40 +12,43 @@
 </head>
 
 <body class="feature-s23" onclick="goBack()">
-    
-    <div class="bt-voltar-absolute">
-        <a href="#" class="header-links">
-            <img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">
-            <!--<img src="assets/imgs/nav_back.svg" alt="" class="nav-back">-->
-        </a>
-    </div>
+    <div id="loading-overlay">Carregando...</div>
+    <div id="loadingContainer" style="display:none;"> 
+        <div class="bt-voltar-absolute">
+            <a href="#" class="header-links">
+                <img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">
+                <!--<img src="assets/imgs/nav_back.svg" alt="" class="nav-back">-->
+            </a>
+        </div>
 
-    <div class="container feature">
-        <div class="row"> 
-            <div class="col-md-12 box-item">
-                <h3>
-                    Zoom extraordinário<br/>
-                    de até 100x
-                </h3>
-            </div>
-            <div class="col-md-12 box-item">
-                <p class="box-paragraph">
-                    Tire fotos e vídeos nítidos, do anoitecer ao<br/>
-                    amanhecer. O sensor de câmera aprimorado<br/>
-                    e um processador de alta performance juntos<br/>
-                    trazem <strong>baixa luminosidade e redução de ruído</strong>.<br/>
-                    E até mesmo a lente da câmera limpa<br/>
-                    a captura ao diminuir a refração.
-                </p>
-            </div>
-            <div class="col-md-12 box-item">
-                <video autoplay loop muted>
-                    <source src="assets/videos/S23/S23-Zoom.mp4" type="video/mp4">
-                    Seu navegador não suporta vídeo HTML5.
-                </video>
+        <div class="container feature">
+            <div class="row"> 
+                <div class="col-md-12 box-item">
+                    <h3>
+                        Zoom extraordinário<br/>
+                        de até 100x
+                    </h3>
+                </div>
+                <div class="col-md-12 box-item">
+                    <p class="box-paragraph">
+                        Tire fotos e vídeos nítidos, do anoitecer ao<br/>
+                        amanhecer. O sensor de câmera aprimorado<br/>
+                        e um processador de alta performance juntos<br/>
+                        trazem <strong>baixa luminosidade e redução de ruído</strong>.<br/>
+                        E até mesmo a lente da câmera limpa<br/>
+                        a captura ao diminuir a refração.
+                    </p>
+                </div>
+                <div class="col-md-12 box-item">
+                    <video autoplay loop muted>
+                        <source src="assets/videos/S23/S23-Zoom.mp4" type="video/mp4">
+                        Seu navegador não suporta vídeo HTML5.
+                    </video>
+                </div>
             </div>
         </div>
     </div>
+    
     <!-- JS -->
     <script src="assets/dependencies/jquery/jquery.min.js"></script>	
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>

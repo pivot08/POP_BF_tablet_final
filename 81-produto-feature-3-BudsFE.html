@@ -31,42 +31,45 @@ video {
     </style>
 </head>
 <body class="feature-budsfe-image" onclick="goBack()">
-    <div class="bt-voltar-absolute">
-        <a href="#" class="header-links">
-            <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
-            <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
-            
-        </a>
-    </div>
-    <section>
-        <div class="container feature">
-            <div class="row"> 
-                <div class="col-md-12 box-item box-item-buds center">
-                    <h3 class="txt-black">
-                            Encaixe<br/>
-                            confortável<br/>
-                            e seguro
-                     </h3>
- 
-                     <p class="box-paragraph txt-black text-center">
-                        O <strong>Galaxy Buds FE</strong>, com seu design compacto e ergonômico,<br/>
-                        chegou para proporcionar uma experiência acústica incrível.<br/>
-                        Personalize o ajuste com várias ponteiras e sincronize<br/>
-                        perfeitamente com seus dispositivos <strong>Samsung Galaxy</strong>.
-                     </p>
+    <div id="loading-overlay">Carregando...</div>
+    <div id="loadingContainer" style="display:none;"> 
+        <div class="bt-voltar-absolute">
+            <a href="#" class="header-links">
+                <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
+                <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
+                
+            </a>
+        </div>
+        <section>
+            <div class="container feature">
+                <div class="row"> 
+                    <div class="col-md-12 box-item box-item-buds center">
+                        <h3 class="txt-black">
+                                Encaixe<br/>
+                                confortável<br/>
+                                e seguro
+                        </h3>
+    
+                        <p class="box-paragraph txt-black text-center">
+                            O <strong>Galaxy Buds FE</strong>, com seu design compacto e ergonômico,<br/>
+                            chegou para proporcionar uma experiência acústica incrível.<br/>
+                            Personalize o ajuste com várias ponteiras e sincronize<br/>
+                            perfeitamente com seus dispositivos <strong>Samsung Galaxy</strong>.
+                        </p>
 
-                     <video autoplay loop muted>
-                        <source src="./assets/videos/budsfe/BudsFE-ergonomia.mp4" type="video/mp4" class="video-fe">
-                        Seu navegador não suporta vídeo HTML5.
-                    </video>
+                        <video autoplay loop muted>
+                            <source src="./assets/videos/budsfe/BudsFE-ergonomia.mp4" type="video/mp4" class="video-fe">
+                            Seu navegador não suporta vídeo HTML5.
+                        </video>
 
-                    <p class="txt-tj txt-7c8483">
-                        *O ANC (Cancelamento Ativo de Ruído) está ativado, e o gesto de manter pressionado para ligar ou desligar o cancelamento ativo de ruído pode ser configurado no aplicativo do Galaxy Wearable.
-                     </p>
+                        <p class="txt-tj txt-7c8483">
+                            *O ANC (Cancelamento Ativo de Ruído) está ativado, e o gesto de manter pressionado para ligar ou desligar o cancelamento ativo de ruído pode ser configurado no aplicativo do Galaxy Wearable.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- JS -->
     <script src="assets/dependencies/jquery/jquery.min.js"></script>	
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>

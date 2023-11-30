@@ -53,43 +53,46 @@ p.txt-tj.txt-black {
     </style>
 </head>
 <body class="feature-budsfe-green" onclick="goBack()">
-    <div class="bt-voltar-absolute">
-        <a href="#" class="header-links">
-            <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
-            <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
-        </a>
-    </div>
-    <section>
-        <div class="container feature">
-            <div class="row"> 
-                <div class="col-md-12 box-item">
-                    <h3 class="txt-black">
-                        Cancelamento<br/>
-                        ativo de ruído
-                    </h3>
-                </div>
-                <div class="col-md-12 box-item">
-                    <p class="box-paragraph txt-black">
-                        <strong> Desligue os ruídos, ative seu próprio mundo.</strong><br/>
-                        Com o cancelamento ativo de ruído, você fica instantaneamente<br/>
-                        sozinho com sua música em um espaço silencioso.<br/>
-                        Fique longe das distrações e mergulhe no som puro
-                    </p>
-                </div>
-                <div class="col-md-12 box-item">
-                    <video autoplay loop muted>
-                        <source src="./assets/videos/budsfe/BudsFE-ANC.mp4" type="video/mp4" class="video-fe">
-                        Seu navegador não suporta vídeo HTML5.
-                    </video>
-                </div>
-                <div class="col-md-12 box-item">
-                    <p class="txt-tj txt-black">
-                        *O ANC (Cancelamento Ativo de Ruído) está ativado, e o gesto de manter pressionado para ligar ou desligar o cancelamento ativo de ruído pode ser configurado no aplicativo do Galaxy Wearable.
-                     </p>
+    <div id="loading-overlay">Carregando...</div>
+    <div id="loadingContainer" style="display:none;"> 
+        <div class="bt-voltar-absolute">
+            <a href="#" class="header-links">
+                <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
+                <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
+            </a>
+        </div>
+        <section>
+            <div class="container feature">
+                <div class="row"> 
+                    <div class="col-md-12 box-item">
+                        <h3 class="txt-black">
+                            Cancelamento<br/>
+                            ativo de ruído
+                        </h3>
+                    </div>
+                    <div class="col-md-12 box-item">
+                        <p class="box-paragraph txt-black">
+                            <strong> Desligue os ruídos, ative seu próprio mundo.</strong><br/>
+                            Com o cancelamento ativo de ruído, você fica instantaneamente<br/>
+                            sozinho com sua música em um espaço silencioso.<br/>
+                            Fique longe das distrações e mergulhe no som puro
+                        </p>
+                    </div>
+                    <div class="col-md-12 box-item">
+                        <video autoplay loop muted>
+                            <source src="./assets/videos/budsfe/BudsFE-ANC.mp4" type="video/mp4" class="video-fe">
+                            Seu navegador não suporta vídeo HTML5.
+                        </video>
+                    </div>
+                    <div class="col-md-12 box-item">
+                        <p class="txt-tj txt-black">
+                            *O ANC (Cancelamento Ativo de Ruído) está ativado, e o gesto de manter pressionado para ligar ou desligar o cancelamento ativo de ruído pode ser configurado no aplicativo do Galaxy Wearable.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- JS -->
     <script src="assets/dependencies/jquery/jquery.min.js"></script>	
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>

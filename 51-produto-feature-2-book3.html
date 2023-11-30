@@ -43,43 +43,46 @@ body {background:#f8f8f8;}
            </style>
 </head>
 <body class="feature-book-white" onclick="goBack()">
-    <div class="bt-voltar-absolute">
-        <a href="#" class="header-links">
-            <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
-            <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
-            
-        </a>
-    </div>
-    <section>
-        <div class="container feature">
-            <div class="row"> 
-                <div class="col-md-12 box-item box-item-book3">
-                    <h3 class="txt-black tit2-book3 text-center">
-                       <strong>
-                        Processador<br/>
-                        Intel Core de 13ª geração
-                       </strong>
-                    </h3>
+    <div id="loading-overlay">Carregando...</div>
+    <div id="loadingContainer" style="display:none;"> 
+        <div class="bt-voltar-absolute">
+            <a href="#" class="header-links">
+                <img src="assets/imgs/nav_back.svg" alt="" class="nav-back">
+                <!--<img src="assets/imgs/nav_back_white.png" alt="" class="nav-back">-->
+                
+            </a>
+        </div>
+        <section>
+            <div class="container feature">
+                <div class="row"> 
+                    <div class="col-md-12 box-item box-item-book3">
+                        <h3 class="txt-black tit2-book3 text-center">
+                        <strong>
+                            Processador<br/>
+                            Intel Core de 13ª geração
+                        </strong>
+                        </h3>
 
-                    <p class="box-paragraph txt-black txt2-book3 text-center">
-                        Aproveite ao máximo o seu dia com o mais recente<br/>
-                        processador <strong>Intel® Core™</strong> de 13ª geração,<br/>
-                        entregando um rápido e confiável<br/>
-                        desempenho para mais produtividade. 
-                    </p>
+                        <p class="box-paragraph txt-black txt2-book3 text-center">
+                            Aproveite ao máximo o seu dia com o mais recente<br/>
+                            processador <strong>Intel® Core™</strong> de 13ª geração,<br/>
+                            entregando um rápido e confiável<br/>
+                            desempenho para mais produtividade. 
+                        </p>
 
-                    <video autoplay loop muted>
-                        <source src="assets/videos/book3/Book3-Processador.mp4" type="video/mp4" class="mt">
-                        Seu navegador não suporta vídeo HTML5.
-                    </video>
+                        <video autoplay loop muted>
+                            <source src="assets/videos/book3/Book3-Processador.mp4" type="video/mp4" class="mt">
+                            Seu navegador não suporta vídeo HTML5.
+                        </video>
 
-                    <p class="box-tj txt-black">
-                        * Imagens meramente ilustrativas. ** Gen Intel® Core™, Intel® Iris® Xe e Intel® Arc™ são marcas registradas da Intel Corporation nos Estados Unidos e em outros países. As especificações de CPU e GPU variam dependendo do modelo, país ou região. *** O Intel® Iris® Xe Graphics requer um sistema configurado com memória de canal duplo.
-                    </p>
+                        <p class="box-tj txt-black">
+                            * Imagens meramente ilustrativas. ** Gen Intel® Core™, Intel® Iris® Xe e Intel® Arc™ são marcas registradas da Intel Corporation nos Estados Unidos e em outros países. As especificações de CPU e GPU variam dependendo do modelo, país ou região. *** O Intel® Iris® Xe Graphics requer um sistema configurado com memória de canal duplo.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
     <!-- JS -->
     <script src="assets/dependencies/jquery/jquery.min.js"></script>	
     <script src="assets/dependencies/owl.carousel/dist/owl.carousel.min.js"></script>
