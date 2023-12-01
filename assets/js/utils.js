@@ -35,7 +35,7 @@ $(document).ready(function () {
             // Oculte o overlay de carregamento
             $('#loading-overlay').css('opacity', 0);
             // Mostre o conteúdo da página com fadeIn
-            $('#loadingContainer').fadeIn(2000, function() {
+            $('#loadingContainer').fadeIn(1000, function() {
                 // Após a conclusão do fadeIn, oculte o overlay
                 $('#loading-overlay').css('display', 'none');
             });
