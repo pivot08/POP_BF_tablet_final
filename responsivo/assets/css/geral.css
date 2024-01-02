@@ -1,0 +1,113 @@
+body {margin:0px;padding:0px;font-family: 'Samsung Sharp Sans';}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    max-width: 93%;
+}
+
+.row {
+    flex-grow: 1;
+    width: 100%;
+    margin-bottom: 25px;
+    --bs-gutter-x: 1.9rem;
+   
+}
+
+.centerauto {margin:auto;text-align: center;}
+
+.card {
+    height: 100%;
+    border-radius: 30px;
+    border:solid 0px;
+}
+
+.no-margin-right {
+    width: 100%;
+    border: solid 1px;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 25px; /* Adicionando margem inferior de 20px */
+}
+
+
+
+.svg-icone {max-width: 65px;margin:auto;}
+.svg-icone2 {max-width: 55px;margin:auto;}
+
+.selecione {background: #000;border-bottom-left-radius: 50px;border-bottom-right-radius: 50px;max-height: 90%;text-align: center;}
+.title-selecione {color:#fff;margin:auto;font-size:26px;}
+
+.bac-verde {background:#97d653;}
+.bac-preto {background:#000;}
+.bac-azul {background:#0278cc;color:#fff;}
+.bac-azul-medio {background: #04b3e2;}
+.bac-lilas {background:#e8dafd;}
+.bac-branco {background:#fff;border:solid 1px;}
+
+.seta-preta {
+    position: absolute;
+    top: 74px;
+    left: 50%;
+    margin-left: -48px;
+    
+}
+
+
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url("../css/fonts/SamsungSharpSans-Bold.woff2") format("woff2"), url("../css/fonts/SamsungSharpSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Samsung InterFace';
+    src: url("../css/fonts/SamsungIF_Rg.ttf") format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Samsung InterFace Bold';
+    src: url("../css/fonts/SamsungIF.ttf") format('truetype');
+    font-weight: 800;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'SamsungOne';
+    src: url("../css/fonts/SamsungOne-400.ttf") format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+
+  .card-title {font-size: 26px;}
+  .card-center {margin:auto;text-align: center;}
+
+  .respiro-categoria {padding:40px;text-align:center;}
+  .card-title.categoria {font-size:48px;text-align: left;}
+  .botoes {padding-top:15px;}
+
+  img {
+    max-width: 100%;
+}
