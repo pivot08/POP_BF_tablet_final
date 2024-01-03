@@ -55,9 +55,10 @@ html, body {
 .bac-verde {background:#97d653;}
 .bac-preto {background:#000;}
 .bac-azul {background:#0278cc;color:#fff;}
-.bac-azul-medio {background: #04b3e2;}
+.bac-azul-medio {background: #04b3e2;color:#fff;}
 .bac-lilas {background:#e8dafd;}
 .bac-branco {background:#fff;border:solid 1px;}
+.bac-cinza {background:#f8f8f8;border:solid 1px;}
 
 .seta-preta {
     position: absolute;
@@ -104,8 +105,8 @@ html, body {
   .card-title {font-size: 26px;}
   .card-center {margin:auto;text-align: center;}
 
-  .respiro-categoria {padding:40px;text-align:center;}
-  .card-title.categoria {font-size:48px;text-align: left;}
+  .respiro-categoria {padding:3em;text-align:center;}
+  .card-title.categoria {font-size:3.3em;text-align: left;}
   .botoes {padding-top:15px;}
 
   img {
